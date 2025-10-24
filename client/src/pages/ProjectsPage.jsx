@@ -9,7 +9,7 @@ const ProjectsPage = () => {
           ProjectList.jsx to here if we want.
           Let's do that.
       */}
-      <h1 style={{ textAlign: 'center' }}>My Portfolio Projects</h1>
+      <h1 style={{ textAlign: 'center' }}>My Projects</h1>
       <ProjectList />
     </div>
   );
