@@ -13,13 +13,29 @@
   gap: 1.5rem;
 }
 
+/* client/src/App.css */
+
+/* MODIFIED STYLE */
 .project-card {
-  background: #625e7b;
+  background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s ease;
+  overflow: hidden; /* This keeps the image corners rounded */
+  padding: 0; /* We'll add padding to the content instead */
+}
+
+/* NEW STYLE for the image */
+.project-image {
+  width: 100%;
+  height: 200px; /* Give all images a uniform height */
+  object-fit: cover; /* This scales and crops the image nicely */
+}
+
+/* NEW STYLE for the text content */
+.project-content {
+  padding: 1.5rem;
 }
 
 .project-card:hover {
@@ -28,24 +44,10 @@
 
 .project-card h2 {
   margin-top: 0;
-  color: #1c252f; /* A nice blue for the title */
+  color: #007bff;
 }
 
-.project-card p {
-  line-height: 1.6;
-}
-
-.project-card a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #1c252f;
-  margin-right: 1rem;
-  transition: color 0.3s ease;
-}
-
-.project-card a:hover {
-  color: #1c252f;
-}
+/* ... (the rest of your .project-card styles for p and a are fine) ... */
 
 /* client/src/App.css (add this to the bottom) */
 
