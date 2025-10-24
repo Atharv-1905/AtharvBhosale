@@ -29,7 +29,8 @@ const ContactPage = () => {
     setStatus('Sending...');
 
     // Send the form data to our backend
-    axios.post('http://localhost:5000/api/contact/send', formData)
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+axios.post(`${API_URL}/api/contact/send`, formData)
       .then(res => {
         setStatus('Message sent successfully!');
         // Clear the form
