@@ -41,11 +41,9 @@ const Home = () => {
           <h1>
             Hello, I'm <span>Atharv</span>
           </h1>
-          <h3>A Data Scientist & A Full-Stack Developer</h3>
+          <h3>AI&ML Engineer</h3>
           <p className="bio">
-            I'm passionate about building modern web applications with the MERN
-            stack. I love turning complex problems & data into simple, beautiful, and
-            intuitive designs & insights.
+            I build intelligent, data-driven applications that turn complex machine learning models into actionable insights. From predictive analytics to real-time NLP integrations, I love engineering systems that make complex data accessible and impactful.
           </p>
           <div className="social-links">
             <a href="https://github.com/Atharv-1905" target="_blank" rel="noreferrer">
@@ -57,7 +55,7 @@ const Home = () => {
             <a href="https://instagram.com/atharv_bhosale17" target="_blank" rel="noreferrer">
               <FaInstagram />
             </a>
-            <a href="/Atharv Bhosale Resume.pdf" target="_blank" rel="noreferrer">
+            <a href="/AIML Resume Atharv.pdf" target="_blank" rel="noreferrer">
               <FaFilePdf />
             </a>
           </div>
